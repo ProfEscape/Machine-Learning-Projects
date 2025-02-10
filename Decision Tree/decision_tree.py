@@ -107,7 +107,7 @@ def calculate_metrics(confusion_matrix):
 
 
 # Load dataset
-data = pd.read_csv("heart_2020_cleaned.csv")  
+data = pd.read_csv("../Dataset/heart_2020_cleaned.csv")  
 data = data.head(40000)  #Take the first 4000 samples
 
 # Encode categorical variables
